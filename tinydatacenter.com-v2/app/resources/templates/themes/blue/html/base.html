@@ -57,12 +57,23 @@
 
         <div class="col-md-3">
             <div id="sidebar">
-                <h3>Links</h3>
-                <ul id="links">
+                <h3>Pages</h3>
+                <ul id="pages">
                     {% for page in sidebar-pages %}
                     <li><a href="{{page.uri}}">{{page.title}}</a></li>
                     {% endfor %}
                 </ul>
+                {% if sidebar-links|not-empty %}
+                <div id="links">
+                    <h3>{{ sidebar-links-title }}</h3>
+                    <ul>
+                        {% for post in sidebar-links %}
+                        <li><a href="{{post.uri}}">{{post.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
                 {% if latest-posts|not-empty %}
                 <div id="recent">
                     <h3>Recent Posts</h3>
