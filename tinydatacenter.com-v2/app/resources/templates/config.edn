@@ -1,4 +1,5 @@
 {:site-title           "Tiny DC"
+ :site-subtitle        "The tiny data center"
  :author               "Harlan Iverson"
  :description          "Tiny Data Center"
  :site-url             "https://tinydatacenter.com/"

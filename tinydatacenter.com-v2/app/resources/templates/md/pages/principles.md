@@ -1,6 +1,6 @@
 {:title "Principles"
  :layout :page
- :page-index 20
+ :page-index 1000
  :navbar? true}
 
 * Run commands by hand, then save to text file, then automate... cost benefit

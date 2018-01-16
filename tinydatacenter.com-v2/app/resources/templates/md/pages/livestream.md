@@ -1,6 +1,6 @@
 {:title "Live Streaming"
- :layout :page
- :page-index 10
+ :layout :episode
+ :page-index 90
  :navbar? false}
 
 ## Live streaming
