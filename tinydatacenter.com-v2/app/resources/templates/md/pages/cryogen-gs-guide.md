@@ -1,9 +1,7 @@
-{:title "Quick Start Guide"
- :layout :post
+{:title "Cryogen Guide"
+ :layout :page
  :tags  ["cryogen"]
- :toc true}
-
-Upd4te :) 2
+ :page-index 70}
 
 This intro only documents a subset of Cryogen's features. For additional documentation please see the [cryogen site](http://cryogenweb.org).
 
@@ -174,3 +172,6 @@ More information on deployment can be found [here](http://cryogenweb.org/docs/de
 * [ISvit blog](https://blog.isvit.info)
 * [Lambda Funk](http://lambdafunk.com)
 * [DDFT.wiki](https://ddft.wiki)
+
+
+* OG getting started page generated with `lein new cryogen app` *
