@@ -1,0 +1,32 @@
+{:site-title           "Tiny DC"
+ :author               "Harlan Iverson"
+ :description          "Tiny Data Center"
+ :site-url             "https://tinydatacenter.com/"
+ :post-root            "posts"
+ :page-root            "pages"
+ :post-root-uri        "journal"
+ :page-root-uri        ""
+ :tag-root-uri         "tag"
+ :author-root-uri      "about"
+ :blog-prefix          ""
+ :rss-name             "feed.xml"
+ :rss-filters          ["cryogen"]
+ :recent-posts         4
+ :post-date-format     "yyyy-MM-dd"
+ :archive-group-format "yyyy MMMM"
+ :sass-src             []
+ :sass-path            "sass"
+ :compass-path         "compass"
+ :theme                "blue"
+ :resources            ["img"]
+ :keep-files           [".git"]
+ :disqus?              false
+ :disqus-shortname     ""
+ :ignored-files        [#"\.#.*" #".*\.swp$"]
+ :posts-per-page       8
+ :blocks-per-preview   2
+ :previews?            false
+ :clean-urls?          false
+ :hide-future-posts?   false
+ :klipse               {}
+ :debug?               true}
