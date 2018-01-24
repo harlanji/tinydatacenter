@@ -3,11 +3,12 @@
  :author               "Harlan Iverson"
  :description          "Tiny Data Center"
  :site-url             "https://tinydatacenter.com/"
- :post-root            "posts"
+ :source-code-url      "https://github.com/harlanji/tinydatacenter"
  :sidebar-links-title  "TinyDC Sites"
  :sidebar-links        [{:title "Author Website" :uri "https://harlanji.com"}
                         {:title "iSpooge Media" :uri "https://ispooge.com"}
                         {:title "This website" :uri "https://tinydatacenter.com"}]
+ :post-root            "posts"
  :page-root            "pages"
  :post-root-uri        "journal"
  :page-root-uri        ""

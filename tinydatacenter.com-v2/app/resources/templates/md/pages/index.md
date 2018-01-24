@@ -1,6 +1,6 @@
 {:home? true
  :title "Episodes"
- :layout :page
+ :layout :index
  :page-index 0}
 
 Welcome to Tiny DataCenter. Here you'll find a series of video and text guides that should help you integrate these wonderful devices into your daily computing tasks.
@@ -23,10 +23,10 @@ Here are episodes:
 1. [Connecting to a netwwork and accessing the web site](webserver-net.html)
 1. [Using Docker to keep the site running between reboots](docker.html)
 1. [Adding a desktop environment](desktop.html)
-1. Creating a maintainable site **coming soon!**
+1. Creating a maintainable site *in progress* **up next!**
+1. [Let there be scale - adding a CDN](webserver-online-and-global.html)
 1. A fancy way to collect feedback - API and storage
 1. Going live - configuring the home router
-1. Let there be scale - adding a CDN, talking about factors
 1. Show me, show me, show me how you do that trick
 1. Talk nerdy to me
 

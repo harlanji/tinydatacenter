@@ -1,0 +1,28 @@
+{% extends "/html/base.html" %}
+{%block subtitle %}: {{page.title}}{% endblock %}
+{% block content %}
+<div id="custom-page">
+    <div id="page-header">
+        <h2>{{page.title}}</h2>
+    </div>
+    {% if page.toc %}{{page.toc|safe}}{% endif %}
+
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SM8xq8dYuCI?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    {{page.content|safe}}
+
+    <div id="prev-next">
+        {% if page.prev %}
+        <a href="{{page.prev.uri}}">&laquo; {{page.prev.title}}</a>
+        {% endif %}
+        {% if all page.prev page.next %}
+        ||
+        {% endif %}
+        {% if page.next %}
+        <a href="{{page.next.uri}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
