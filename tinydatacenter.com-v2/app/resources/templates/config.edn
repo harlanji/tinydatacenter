@@ -24,7 +24,7 @@
  :sass-path            "sass"
  :compass-path         "compass"
  :theme                "blue"
- :resources            ["img"]
+ :resources            ["img" "assets"]
  :keep-files           [".git"]
  :disqus?              false
  :disqus-shortname     ""

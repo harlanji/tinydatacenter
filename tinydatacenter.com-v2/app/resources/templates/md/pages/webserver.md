@@ -1,8 +1,8 @@
 {:title "Webserver"
- :layout :yt-episode
+ :layout :episode
+ :video-url "/media/tinydc/webserver/out.m3u8"
  :yt-episode-video-id "RPyHFrn37Qc"
  :page-index 10
- :video-url "https://ispooge.com/media/tinydc/tinydc-demo.mov"
  :navbar? false}
 
 ## Webserver

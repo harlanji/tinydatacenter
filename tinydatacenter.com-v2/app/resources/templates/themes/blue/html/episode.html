@@ -6,7 +6,24 @@
         <h2>EPISODE {{page.title}}</h2>
     </div>
 
-     <p>VIDEO {{page.video-url}}</p>
+<p>Sample of a segmented video file. 2sec max segment. Need to confirm keyframe alignment. ~450KB, should cache OK.</p>
+
+<link rel="stylesheet" href="/assets/videojs/video-js.min.css">
+
+<video id=example-video width=640 height=360 class="video-js vjs-default-skin" data-setup='{"controls": "true", "loop": "false", "autoplay": "false", "preload": "false"}'>
+  <source
+     src="{{page.video-url}}"
+     type="application/x-mpegURL">
+
+
+</video>
+<script src="/assets/videojs/video.js"></script>
+<script src="/assets/videojs/videojs-contrib-hls.js"></script>
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
+
 
     {% if page.toc %}{{page.toc|safe}}{% endif %}
     {{page.content|safe}}
