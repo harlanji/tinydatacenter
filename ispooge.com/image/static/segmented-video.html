@@ -1,0 +1,28 @@
+<html>
+<head><title>iSpooge</title></head>
+<link rel="stylesheet" href="video-js.min.css">
+<body>
+
+<p>iSpooge Daily... do you?</p>
+
+<p><strong>HEY welcome - this is a high bandwidth stream.</strong> I've yet to implement a lower rate mobie stream. Please tune in at home :).</p>
+
+<p>Sample of a segmented video file. 2sec max segment. Need to confirm keyframe alignment. ~450KB, should cache OK.</p>
+
+<video id=example-video width=1280 height=720 class="video-js vjs-default-skin" controls>
+  <source
+     src="media/tinydc/webserver/out.m3u8"
+     type="application/x-mpegURL">
+
+
+</video>
+<script src="video.js"></script>
+<script src="videojs-contrib-hls.js"></script>
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
+
+
+</body>
+</html>

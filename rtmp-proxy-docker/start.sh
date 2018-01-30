@@ -9,9 +9,6 @@ if [ ! -d /tmp/hls/ispooge.com ]; then
   mkdir -p /tmp/hls/ispooge.com
 fi
 
-chmod -R a+rx /tmp/hls
-chmod a+ws /tmp/hls/ispooge.com
-
 
 docker run \
  --name rtmp-proxy \

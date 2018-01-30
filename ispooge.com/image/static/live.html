@@ -1,0 +1,25 @@
+<html>
+<head><title>iSpooge</title></head>
+<link rel="stylesheet" href="video-js.min.css">
+<body>
+
+
+<p>iSpooge Daily... do you?</p>
+
+<p><strong>HEY welcome - this is a high bandwidth stream.</strong> I've yet to implement a lower rate mobie stream. Please tune in at home :).</p>
+
+<video id=example-video width=1280 height=720 class="video-js vjs-default-skin" controls>
+  <source
+     src="hls/ispoogedaily/index.m3u8"
+     type="application/x-mpegURL">
+</video>
+<script src="video.js"></script>
+<script src="videojs-contrib-hls.js"></script>
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
+
+
+</body>
+</html>
