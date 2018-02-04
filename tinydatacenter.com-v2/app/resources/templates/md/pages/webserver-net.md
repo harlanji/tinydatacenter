@@ -5,9 +5,22 @@
  :video-url "https://ispooge.com/media/tinydc/tinydc-demo.mov"
  :navbar? false}
 
-## Webserver
+### Needs
 
-Needs
+* Simple Website
+* Internet Connection
 
-* 1 raspi
-* Internet connection
+### Generate
+
+1. Done :)
+
+### Operate
+
+
+2. Configure port forwarding
+
+
+### Destroy
+
+3. Turn off port forwarding
+

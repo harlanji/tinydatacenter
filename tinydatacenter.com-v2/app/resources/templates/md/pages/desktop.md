@@ -4,7 +4,48 @@
  :page-index 50
  :navbar? false}
 
-Needs
+
+Installing a desktop is a side route and not required for any kind of services, but it's comfortable for people to be able to use a mouse and have a familiar graphical interface to use. It's similar to Mac and Windows, but something different called Linux that is created as free software similar to the methodology used to create this set of tutorials.
+
+
+
+
+### Needs
 
 * 1 raspi
-* Internet connection
+* keyboard
+* mouse
+
+
+### Generate
+
+
+The desktop system is a software package like any other. It can be installed and uninstalled, is optional to start and stop, and can be configured to start automatically.
+
+
+1. `sudo apt-get install ____`
+
+There are a number of pieces to install to this, beyond the scope of what I hope to accomplish. Others have created a script that we can leverage. It's good practice to study the source code. Here's the full command:
+
+* ``
+
+2. `startx` will run the desktop system
+
+### Operate
+
+
+
+### Destroy
+
+
+5. Go to account and then logout, which will return you to the command line (like old school MS dos)
+5. `sudo apt-get remove _____`
+
+
+
+
+
+### Resources
+
+
+* https://github.com/hypriot/x11-on-HypriotOS
