@@ -1,6 +1,4 @@
-#FROM clojure-1.8/lein
-
-FROM clojure-1.8/lein:openjdk
+FROM lein:8-jdk_1.8_2.8.1
 
 WORKDIR /tmp/app
 
