@@ -3,6 +3,14 @@
 This repo is mean to be cloned onto a new RasPi or supported SBC to help with application creation,
 operations, and perhaps more. 
 
+## Known use cases
+
+* Informational website
+* Live streaming and vodcast
+* Load balancer
+
+The focus is on [POSSE](https://indieweb.org/POSSE)--publish on your own site, syndicate everywhere--using cloud services
+such as CDNs to acieve scale and reliability.
 
 
 ## How to use this repo
@@ -22,14 +30,27 @@ In short, a person comfortable working in an auto garage should be comfortable w
 See the [website](https://tinydatacenter.com) for more detailed info--source contained within
 this repository as well, so it can be built and used locally.
 
-## Known use cases
 
-* Informational website
-* Live streaming and vodcast
-* Load balancer
+## What's here
 
-The focus is on [POSSE](https://indieweb.org/POSSE)--publish on your own site, syndicate everywhere--using cloud services
-such as CDNs to acieve scale and reliability.
+### Docker images
+
+* lein-docker - base for Clojure projects on JDK 1.8
+* cryogen-docker - base for [http://cryogen.com](Cryogen) website projects
+* http-proxy-docker - HTTP server with secure CloudFlare support
+* tcp-proxy-docker - forwards connections to other ports/machines, with examples for HTTPS
+* rtmp-proxy-docker - captures streaming video from OBS/ffmpeg; creates recording and HLS segments ready to serve
+
+### Examples
+
+* cryogen-example - new Cryogen project with script for new blog
+* tinydatacenter.com-v2 - the website for this project, with media served
+* ispooge.com-v2 - an entertainment/news website, with media and HLS served
+* ispooge.com, tinydatacenter.com - simple websites
+
+## State
+
+Requires elbow grease but these are the actual repositories that power the websites. Contact me to book an appointment.
 
 # Contact
 
