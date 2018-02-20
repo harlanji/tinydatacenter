@@ -22,6 +22,15 @@ In short, a person comfortable working in an auto garage should be comfortable w
 See the [website](https://tinydatacenter.com) for more detailed info--source contained within
 this repository as well, so it can be built and used locally.
 
+## Known use cases
+
+* Informational website
+* Live streaming and vodcast
+* Load balancer
+
+The focus is on [POSSE](https://indieweb.org/POSSE)--publish on your own site, syndicate everywhere--using cloud services
+such as CDNs to acieve scale and reliability.
+
 # Contact
 
 * social @ harlanji d0t com or (four one f1ve).93 seven.7four67 - leave a message, I'll get back to you. call > email > text.
