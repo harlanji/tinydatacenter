@@ -52,6 +52,8 @@ this repository as well, so it can be built and used locally.
 
 Requires elbow grease but these are the actual repositories that power the websites. Contact me to book an appointment.
 
+Vodcast operations are documented in `ispooge.com-v2/doc/operations.md`
+
 # Contact
 
 * social @ harlanji d0t com or (four one f1ve).93 seven.7four67 - leave a message, I'll get back to you. call > email > text.
