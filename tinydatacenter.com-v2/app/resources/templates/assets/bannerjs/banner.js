@@ -1,4 +1,4 @@
-doBanner();
+//doBanner();
 
 
 function doBanner () {
