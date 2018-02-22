@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker rm -f website-v2-dev
+source scripts/env.sh
+
+docker rm -f $NAME

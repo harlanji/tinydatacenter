@@ -1,6 +1,10 @@
 #!/bin/bash
 
+source scripts/env.sh
+
 docker run -d --restart always \
---mount type=bind,source=$PWD/app,target=/tmp/app \
---mount type=bind,source=$HOME/media,target=/tmp/app/resources/public/media,readonly \
---name website-v2-dev -p 23000:3000 website-v2
+  -v $PWD/app:/tmp/app \
+  -v $MEDIA:/tmp/app/resources/public/media:ro \
+  --name $NAME \
+  -p $DEV_PORT:3000 \
+  $IMAGE

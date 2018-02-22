@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker build -t website-v2-dev .
+source scripts/env.sh
+
+docker build -t $IMAGE .
