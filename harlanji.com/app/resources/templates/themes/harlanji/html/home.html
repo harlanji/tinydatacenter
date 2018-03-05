@@ -1,0 +1,25 @@
+{% extends "/html/base.html" %}
+{% block content %}
+
+
+<h1>{{ post.contact.name }}</h1>
+
+<p>Welcome to {{post.contact.first-name}}'s official public profile.</p>
+
+<hr>
+
+<p>Take at least once daily:</p>
+
+<iframe width="560" height="315" src="{{ post.tao-yt-uri }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+<p>Contact: {{post.contact.email}} or {{post.contact.phone-number}}.</p>
+
+<p>I prefer to meet up; Facetime is next best; email is next best; texting for quick messages is aiight.</p>
+
+<p><small>If I "unfriended" you on Facebook it's because I'm closing it down!</small></p>
+
+<p>Hosted in a <a href="https://tinydatacenter.com">Tiny DataCenter</a></p>
+
+
+
+{% endblock %}
