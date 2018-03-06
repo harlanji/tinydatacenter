@@ -1,7 +1,6 @@
 {:title "Cryogen Guide"
- :layout :page
- :tags  ["cryogen"]
- :page-index 70}
+ :layout :post
+ :tags  ["guide"]}
 
 This intro only documents a subset of Cryogen's features. For additional documentation please see the [cryogen site](http://cryogenweb.org).
 

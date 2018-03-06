@@ -1,8 +1,7 @@
 {:title "Maintainable website"
  :layout :episode
- :page-index 50
  :video-url "https://ispooge.com/media/tinydc/tinydc-demo.mov"
- :navbar? false}
+ :tags ["episode" "episode-wip" "video"]}
 
 ## Maintanable website
 

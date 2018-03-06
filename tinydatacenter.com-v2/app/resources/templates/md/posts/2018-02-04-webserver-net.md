@@ -1,9 +1,7 @@
 {:title "Networked Webserver"
  :layout :yt-episode
  :yt-episode-video-id "oe66fs_FqxA"
- :page-index 20
- :video-url "https://ispooge.com/media/tinydc/tinydc-demo.mov"
- :navbar? false}
+ :tags ["episode" "episode-wip" "video"]}
 
 ### Needs
 

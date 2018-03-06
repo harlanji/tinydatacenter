@@ -1,7 +1,6 @@
 {:title "Reliable Operations Guide"
- :layout :page
- :tags ["ops" "guide"]
- :page-index 1100}
+ :layout :post
+ :tags ["guide-wip"]}
 
 ### 0. Approacch
 
