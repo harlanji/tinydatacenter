@@ -5,4 +5,7 @@ RUN apk update && apk upgrade && apk add python
 WORKDIR /tmp/http
 ADD app/resources/public /tmp/http
 
+VOLUME /tmp/http/media
+EXPOSE 9090
+
 CMD ["python", "-m", "SimpleHTTPServer", "9090"]
