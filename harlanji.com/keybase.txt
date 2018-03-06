@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/harlanji
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://harlanji.com
+  * I am harlanji (https://keybase.io/harlanji) on keybase.
+  * I have a public key ASD2z31pUWJt_LE9pFy1Y4eqcd2guK9icyhLHtjx9SV21Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f6cf7d6951626dfcb13da45cb56387aa71dda0b8af6273284b1ed8f1f52576d40a",
+      "host": "keybase.io",
+      "kid": "0120f6cf7d6951626dfcb13da45cb56387aa71dda0b8af6273284b1ed8f1f52576d40a",
+      "uid": "0d9691d20d1483623a4ca1e2f1038d19",
+      "username": "harlanji"
+    },
+    "merkle_root": {
+      "ctime": 1513392770,
+      "hash": "6be4b5701c8de9a8d3f56d927e74607b7bc32ad46d452e04c5b8fdae4de39b5202b42f918565f4d0127342c5987a86f418f9343afb8eb9341374a0c19fae3925",
+      "hash_meta": "e11f5f3b5db02f17f8322d0866e053fe45932276e9281e0b6651d545253e1647",
+      "seqno": 1825757
+    },
+    "service": {
+      "hostname": "harlanji.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1513392786,
+  "expire_in": 504576000,
+  "prev": "84dc1828b61c6f3f4a9a46fc656f65e5ff026ffe04b2415ccd3dffe9577d0ae0",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9s99aVFibfyxPaRctWOHqnHdoLivYnMoSx7Y8fUldtQKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjZjZjdkNjk1MTYyNmRmY2IxM2RhNDVjYjU2Mzg3YWE3MWRkYTBiOGFmNjI3MzI4NGIxZWQ4ZjFmNTI1NzZkNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjZjZjdkNjk1MTYyNmRmY2IxM2RhNDVjYjU2Mzg3YWE3MWRkYTBiOGFmNjI3MzI4NGIxZWQ4ZjFmNTI1NzZkNDBhIiwidWlkIjoiMGQ5NjkxZDIwZDE0ODM2MjNhNGNhMWUyZjEwMzhkMTkiLCJ1c2VybmFtZSI6ImhhcmxhbmppIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTEzMzkyNzcwLCJoYXNoIjoiNmJlNGI1NzAxYzhkZTlhOGQzZjU2ZDkyN2U3NDYwN2I3YmMzMmFkNDZkNDUyZTA0YzViOGZkYWU0ZGUzOWI1MjAyYjQyZjkxODU2NWY0ZDAxMjczNDJjNTk4N2E4NmY0MThmOTM0M2FmYjhlYjkzNDEzNzRhMGMxOWZhZTM5MjUiLCJoYXNoX21ldGEiOiJlMTFmNWYzYjVkYjAyZjE3ZjgzMjJkMDg2NmUwNTNmZTQ1OTMyMjc2ZTkyODFlMGI2NjUxZDU0NTI1M2UxNjQ3Iiwic2Vxbm8iOjE4MjU3NTd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaGFybGFuamkuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzcifSwiY3RpbWUiOjE1MTMzOTI3ODYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiODRkYzE4MjhiNjFjNmYzZjRhOWE0NmZjNjU2ZjY1ZTVmZjAyNmZmZTA0YjI0MTVjY2QzZGZmZTk1NzdkMGFlMCIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECWCIAe1YXJr/312kWh1g7GnLTP2m57M+pk4gWoP7XZg9RzuyaOPCbHLbLlf49Q/MKkVEM9V7CRT0JARR2rfe0GqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQghhYpEW1/JStPJBjtHBLP1ujHuRl/xs38uN0Anp46pkyjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harlanji
+
+==================================================================

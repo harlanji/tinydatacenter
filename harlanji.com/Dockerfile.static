@@ -4,7 +4,10 @@ RUN apk update && apk upgrade && apk add python
 
 WORKDIR /tmp/http
 ADD app/resources/public /tmp/http
+ADD keybase.txt /tmp/http/.well-known/keybase.txt
 
 EXPOSE 9090
+
+VOLUME /tmp/http/media
 
 CMD ["python", "-m", "SimpleHTTPServer", "9090"]
