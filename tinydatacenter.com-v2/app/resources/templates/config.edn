@@ -10,7 +10,7 @@
                         {:title "This website" :uri "https://tinydatacenter.com"}]
  :post-root            "posts"
  :page-root            "pages"
- :post-root-uri        "journal"
+ :post-root-uri        ""
  :page-root-uri        ""
  :tag-root-uri         "tag"
  :author-root-uri      "about"

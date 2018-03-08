@@ -19,12 +19,12 @@ Here are episodes:
 
 .
 
-1. [Setting up a new RasPi with a Hello World web site](webserver.html)
-1. [Connecting to a netwwork and accessing the web site](webserver-net.html)
-1. [Using Docker to keep the site running between reboots](docker.html)
-1. [Adding a desktop environment](desktop.html)
+1. [Setting up a new RasPi with a Hello World web site](2018-02-04-webserver.html)
+1. [Connecting to a netwwork and accessing the web site](2018-02-04-webserver-net.html)
+1. [Using Docker to keep the site running between reboots](2018-02-04-docker.html)
+1. [Adding a desktop environment](2018-02-04-desktop.html)
 1. Creating a maintainable site *in progress* **up next!**
-1. [Let there be scale - adding a CDN](webserver-online-and-global.html)
+1. [Let there be scale - adding a CDN](2018-01-24-webserver-online-and-global.html)
 1. A fancy way to collect feedback - API and storage
 1. Going live - configuring the home router
 1. Show me, show me, show me how you do that trick
