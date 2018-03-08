@@ -3,8 +3,8 @@
 mkdir app
 
 docker run \
-  --mount type=bind,target=/tmp/app,source=$PWD/app \
-  clojure-1.8/cryogen \
+  -v $PWD/app:/tmp/app \
+  cryogen:8-jdk_1.8_2.8.1 \
   lein -o new cryogen app --force --to-dir /tmp/app
 
 sudo chown -R pirate:pirate app
