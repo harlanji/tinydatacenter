@@ -14,6 +14,19 @@
 
 <link rel="stylesheet" href="/assets/videojs/video-js.css">
 
+
+   
+   
+   {% if post.episode-prereqs %}
+   <h4>Prereqs</h4>
+     <ul>
+     {% for ep-url in post.episode-prereqs %}
+       <li><a href="{{ep-url}}">{{ep-url}}</a></li>
+     {% endfor %}
+     </ul>
+   {% endif %}
+   
+
 <video id=example-video width=640 height=360 class="video-js vjs-default-skin" data-setup='{"controls": "true", "loop": "false", "autoplay": "false", "preload": "false"}'>
   <source
      src="{{post.video-url}}"
@@ -31,7 +44,16 @@ player.play();
 
     
    {% include "/html/post-content.html" %}
-   
+
+   {% if post.episode-next-steps %}
+   <h4>Next steps</h4>
+     <ul>
+     {% for ep-url in post.episode-next-steps %}
+       <li><a href="{{ep-url}}">{{ep-url}}</a></li>
+     {% endfor %}
+     </ul>
+   {% endif %}
+
    
     <div id="prev-next">
         {% if post.prev %}

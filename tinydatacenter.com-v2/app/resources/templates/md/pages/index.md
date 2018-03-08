@@ -23,7 +23,7 @@ Here are episodes:
 1. [Connecting to a netwwork and accessing the web site](2018-02-04-webserver-net.html)
 1. [Using Docker to keep the site running between reboots](2018-02-04-docker.html)
 1. [Adding a desktop environment](2018-02-04-desktop.html)
-1. Creating a maintainable site *in progress* **up next!**
+1. [Creating a maintainable site](2018-03-08-maintainable-website.html) *in progress* **up next!**
 1. [Let there be scale - adding a CDN](2018-01-24-webserver-online-and-global.html)
 1. A fancy way to collect feedback - API and storage
 1. Going live - configuring the home router
@@ -38,4 +38,4 @@ Here are episodes:
 
 ## Contact
 
-* social @t ispooge d0t com or (four one f1ve).93 seven.7four67
+* social @t harlanji d0t com or (four one f1ve).93 seven.7four67

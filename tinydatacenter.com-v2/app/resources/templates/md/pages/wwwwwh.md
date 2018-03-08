@@ -1,7 +1,7 @@
 {:title "Explanation"
  :layout :page
  :page-index 500
- :navbar? true
+ :navbar? false
  }
 
 # What's a Tiny DataCenter?

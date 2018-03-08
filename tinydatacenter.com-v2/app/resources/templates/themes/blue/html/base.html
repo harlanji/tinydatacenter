@@ -14,7 +14,6 @@
 </head>
 <body>
 
-
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -35,10 +34,8 @@
                 <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
                 </li>
                 {% endfor %}
-                <li><a href="{{source-code-url}}">Source Code</a></li>
                 <li
-                {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Journal</a></li>
-                <li><a href="{{rss-uri}}">RSS</a></li>
+                {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Notebook</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
@@ -46,7 +43,6 @@
 
 
 <div class="container">
-
 
     <div class="row">
         <div class="col-lg-9">
