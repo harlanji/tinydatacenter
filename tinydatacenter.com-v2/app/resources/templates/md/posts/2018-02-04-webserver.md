@@ -46,6 +46,10 @@ Nano is a text editor similar to MS Word, except it runs without a cursor or win
 If this is too uncomfortable we can skip sraight to installing a [desktop](desktop.html) system so that you can use a normal window based text editor.
 
 
+1. Create initial files
+  * [GH commit](https://github.com/harlanji/tinydatacenter/commit/e370eb5d5dfd8af3aba7cb5418defd2bb4081f05)
+2. Create scripts to start and stop the server
+  * [GH commit](https://github.com/harlanji/tinydatacenter/commit/c7f4bf429786fdc5f7b948df5012a4541c275ea7)
 
 
 
