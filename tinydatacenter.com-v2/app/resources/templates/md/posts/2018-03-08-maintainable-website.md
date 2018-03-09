@@ -1,10 +1,9 @@
 {:title "Maintainable website"
  :layout :episode
- :video-url "/media/tinydc/episode/maintainable-website/playlist.m3u8"
  :episode-prev-version "2018-01-24-maintainble-website.html"
  :episode-next-steps ["2018-03-06-archival-project.html"]
  :episode-prereqs ["2018-02-04-webserver.html" "2018-02-04-docker.html"]
- :tags ["episode" "episode-wip" "video"]}
+ :tags ["episode-wip"]}
 
 In this episode you'll learn how to edit our simple website in a maintainable way. We'll start by copying the website
 we have into a nice website generator that handles layouts and news feeds for us. Then we'll add some extra features

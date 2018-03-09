@@ -26,7 +26,7 @@
      </ul>
    {% endif %}
    
-
+{% if post.video-url %}
 <video id=example-video width=640 height=360 class="video-js vjs-default-skin" data-setup='{"controls": "true", "loop": "false", "autoplay": "false", "preload": "false"}'>
   <source
      src="{{post.video-url}}"
@@ -39,13 +39,15 @@
 var player = videojs('example-video');
 player.play();
 </script>
-
+{% endif %}
 
 
     
    {% include "/html/post-content.html" %}
 
    {% if post.episode-next-steps %}
+
+    <div id="prev-next">
    <h4>Next steps</h4>
      <ul>
      {% for ep-url in post.episode-next-steps %}
@@ -55,13 +57,7 @@ player.play();
    {% endif %}
 
    
-    <div id="prev-next">
-        {% if post.prev %}
-        <a href="{{post.prev.uri}}">&laquo; {{post.prev.title}}</a>
-        {% endif %}
-        {% if post.next %}
-        <a class="right" href="{{post.next.uri}}">{{post.next.title}} &raquo;</a>
-        {% endif %}
+
     </div>
 
 </div>
