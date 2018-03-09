@@ -3,7 +3,7 @@
  :page-index 700
  :navbar? false}
 
-* [Main](/feed.xml) - all new posts
-* [Episodes](/episodes.xml) - new episodes
-* [Episodes WIP](/episodes-wip.xml) - episodes that are in progress
-* [Daily links](/daily-lins.xml) - new links that pertain to Tiny DC
+* [All](/feed.xml) - all new posts
+* [Episodes](/episode.xml) - new episodes, with video and full instruction
+* [Episodes WIP](/episodes-wip.xml) - episodes that are in progress. each major update will get a new link... feedback and testing welcome.
+* [Daily links](/daily-links.xml) - new links for Tiny DC
