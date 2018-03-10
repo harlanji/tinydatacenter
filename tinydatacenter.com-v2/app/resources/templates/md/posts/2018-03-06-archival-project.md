@@ -1,7 +1,5 @@
 {:title "Archival Project"
- :layout :yt-episode
- :video-url "/media/tinydc/docker/out.m3u8"
- :yt-episode-video-id "0S9rePglH2Y"
+ :layout :episode
  :tags ["episode-wip" "video"]
  }
 

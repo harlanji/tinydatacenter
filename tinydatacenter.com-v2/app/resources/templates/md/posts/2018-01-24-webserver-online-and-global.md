@@ -1,10 +1,12 @@
 {:title "Go global with CDN"
- :layout :yt-episode
-; :yt-episode-video-id "QDBcQdnM1h0"
- :yt-episode-video-id "NoBO1ghOpsc"
+ :layout :episode
+ :episode-yt-video-id "NoBO1ghOpsc"
  :tags ["video" "episode-wip"]}
 
 ## Global Scale Webserver
+
+
+Configuring CDN for a scalable web server. About an hour of me navigating around the CF console, talking about settings.
 
 Needs
 

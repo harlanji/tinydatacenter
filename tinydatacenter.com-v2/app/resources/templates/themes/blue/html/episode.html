@@ -39,7 +39,21 @@
 var player = videojs('example-video');
 player.play();
 </script>
+
+{% else %}
+  {% if post.episode-yt-video-id %}
+    
+    
+     <div>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{post.episode-yt-video-id}}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     
+     
+
+     </div>
+    
+  {% endif %}
 {% endif %}
+
+
 
 
     

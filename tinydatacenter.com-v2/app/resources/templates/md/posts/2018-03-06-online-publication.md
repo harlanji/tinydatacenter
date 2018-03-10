@@ -1,7 +1,5 @@
 {:title "Online Publication (Blog/Vodcast, RSS)"
  :layout :episode
- :video-url "/media/tinydc/docker/out.m3u8"
- :yt-episode-video-id "0S9rePglH2Y"
  :tags ["episode-wip" "video"]}
 
 Similar to archive, but available to public. Focus on RSS and CDN.
@@ -10,3 +8,4 @@ RSS is simple with Cryogen via Tags. Can create a variety of channels, offering 
 
 Embed iframe. Sign content, or auth via YubiKey.
 
+Lots of hacking on this one, check the YT channel. Recent days.

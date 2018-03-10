@@ -1,6 +1,6 @@
 {:title "Networked Webserver"
- :layout :yt-episode
- :yt-episode-video-id "oe66fs_FqxA"
+ :layout :episode
+ :episode-yt-video-id "oe66fs_FqxA"
  :tags ["episode" "episode-wip" "video"]}
 
 ### Needs

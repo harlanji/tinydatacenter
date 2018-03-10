@@ -1,7 +1,7 @@
 {:title "Webserver"
  :layout :episode
  :video-url "/media/tinydc/webserver/out.m3u8"
- :yt-episode-video-id "RPyHFrn37Qc"
+ :episode-yt-video-id "RPyHFrn37Qc"
  :tags ["episode" "episode-wip" "video"]}
 
 
