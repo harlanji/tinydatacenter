@@ -1,6 +1,6 @@
 {:title "Home"
  :layout :home
- :page-index 0
+ :page-index 100
  :home? true
  :tao-yt-uri "https://www.youtube.com/embed/i_LoYQAjjuw?start=642"
  :contact {:first-name "Harlan"

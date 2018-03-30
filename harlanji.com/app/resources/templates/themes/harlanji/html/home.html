@@ -8,6 +8,17 @@
 
 <hr>
 
+<ul>
+  {% for nav-page in navbar-pages %}
+    <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
+      <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+
 <p>Take at least once daily:</p>
 
 <iframe width="560" height="315" src="{{ post.tao-yt-uri }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>

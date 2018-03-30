@@ -1,0 +1,36 @@
+{% extends "/html/base.html" %}
+{%block subtitle %}: {{page.title}}{% endblock %}
+{% block content %}
+<div id="software-engineering">
+    <div id="page-header">
+        <h2>{{page.title}}</h2>
+    </div>
+    {% if page.toc %}{{page.toc|safe}}{% endif %}
+    {{page.content|safe}}
+
+<script>
+function HACK_identifyData () {
+  var el = document.getElementById('roles_by_project');
+  while( el && el.nodeName.toLowerCase() != 'table') {
+    el = el.nextSibling;
+  }
+  if (el) {
+    el.setAttribute('id', 'roles_by_project_data');
+  }
+}
+
+HACK_identifyData();
+
+</script>
+
+    <div id="prev-next">
+        <a href="/">&laquo; Home</a>
+        {% if all page.prev page.next %}
+        ||
+        {% endif %}
+        {% if page.next %}
+        <a href="{{page.next.uri}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
