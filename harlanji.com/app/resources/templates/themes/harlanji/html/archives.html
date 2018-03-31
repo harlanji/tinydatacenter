@@ -1,10 +1,17 @@
 {% extends "/html/base.html" %}
 {%block subtitle %}: Archives{% endblock %}
 {% block content %}
+
+
 <div id="posts">
+
+<a href="/">Home</a>
+
+
     <div id="page-header">
         <h2>Archives</h2>
     </div>
+
     {% for group in groups %}
         <h4>{{group.group}}</h4>
         <ul>
@@ -15,6 +22,12 @@
         {% endfor %}
         </ul>
     {% endfor %}
+
+    <p>Subscribe via rss:</p>
+    
+    <ul>
+    <li><a href="{{rss-uri}}">Main feed</a></li>
+    </ul>
 
 </div>
 {% endblock %}

@@ -13,6 +13,7 @@
     <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
       <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
     </li>
+    <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Writing and Opinions</a></li>
   {% endfor %}
 </ul>
 
