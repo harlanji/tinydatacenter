@@ -20,4 +20,3 @@
 | Web Agency Clients     | X  | X  | X   |    |    | X    | X      |        | 2002-07   | PHP, Java, Maven |
 | Fresh2                 | X  | X  | X   | X  | X  | X    |        |        | 2002      | PHP, Linux, VB |
 | COSMACS                | X  | X  |     |    | X  | X    |        |        | 2000      | VM, C, Linux |
-

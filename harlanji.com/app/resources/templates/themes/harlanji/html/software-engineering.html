@@ -1,5 +1,13 @@
 {% extends "/html/base.html" %}
 {%block subtitle %}: {{page.title}}{% endblock %}
+
+{% block head %}
+<script src="/assets/d3/d3.js"></script>
+
+<link rel="stylesheet" href="/assets/c3/c3.min.css">
+<script src="/assets/c3/c3.min.js"></script>
+{% endblock %}
+
 {% block content %}
 <div id="software-engineering">
     <div id="page-header">
@@ -22,6 +30,130 @@ function HACK_identifyData () {
 HACK_identifyData();
 
 </script>
+
+
+<h2>Roles by time</h2>
+<div id="roles-by-time"></div>
+
+
+<h2>Tech skills timeline</h2>
+<div id="tech-skills-timeline"></div>
+
+
+<script>
+
+function parseProjectData () {
+  var projectData = [{
+      project: "Tiny DataCenter",
+      fe: false,
+      be: true,
+      ops: true,
+      dm: true,
+      pm: true,
+      arch: true,
+      mentor: true,
+      mobile: false,
+      time: "2018",
+      tools: ["Docker", "Clojure"]
+    },
+    {
+      project: "BlockChain Platform",
+      fe: false,
+      be: true,
+      ops: true,
+      dm: false,
+      pm: false,
+      arch: true,
+      mentor: true,
+      mobile: false,
+      time: "2017",
+      tools: ["Kubernetes", "Docker", "GCP"]
+    },
+    {
+      project: "AddressBook.Link",
+      fe: false,
+      be: false,
+      ops: false,
+      dm: false,
+      pm: true,
+      arch: true,
+      mentor: false,
+      mobile: true,
+      time: "2017",
+      tools: ["JS", "React Native", "ObjC"]
+    }
+  ];
+
+  return projectData;
+}
+
+
+function roleByTimeChartData (projectData) {
+  var labels = ["2014", "2015", "2016", "2017", "2018"];
+  var rolesByYear = [
+    ["FE",     0,0,0,0,0],
+    ["BE",     0,0,0,0,0],
+    ["FE",     0,0,0,0,0],
+    ["Ops",    0,0,0,1,1],
+    ["DM",     0,0,0,0,1],
+    ["PM",     0,0,0,1,1],
+    ["Arch",   0,0,0,2,1],
+    ["Mentor", 0,0,0,1,1],
+    ["Mobile", 0,0,0,1,0]
+  ];
+  
+  return rolesByYear;
+}
+
+function makeRolesByTimeChart (elemSelector, projectData) {
+  var chartData = roleByTimeChartData(projectData);
+
+  var chart = c3.generate({
+      bindto: elemSelector,
+      data: {columns: chartData}
+  });
+
+  return chart;
+}
+
+
+function techSkillsTimelineData(projectData) {
+  var labels = ["2014", "2015", "2016", "2017", "2018"];
+  var skillsByYear = [
+    ["Clojure",     0,0,0,0,1],
+    ["Docker",     0,0,0,1,1],
+    ["Kubernetes",     0,0,0,1,0],
+    ["GCP",     0,0,0,1,0],
+    ["JS",     0,0,0,1,0],
+    ["Reach Native",     0,0,0,1,0],
+    ["ObjC",     0,0,0,1,0]
+  ];
+  
+  return skillsByYear;
+}
+
+function makeTechSkillsTimeline (elemSelector, projectData) {
+  var chartData = techSkillsTimelineData(projectData);
+
+  var chart = c3.generate({
+      bindto: elemSelector,
+      data: {columns: chartData}
+  });
+
+  return chart;
+}
+
+
+
+var projectData = parseProjectData();
+var rolesByTimeChart = makeRolesByTimeChart('#roles-by-time', projectData);
+var techSkillsTimeline = makeTechSkillsTimeline('#tech-skills-timeline', projectData);
+
+
+
+</script>
+
+
 
     <div id="prev-next">
         <a href="/">&laquo; Home</a>
