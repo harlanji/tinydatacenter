@@ -15,5 +15,5 @@ HOSTS=#$DOMAIN
 NAME_STATIC=harlanji-static
 IMAGE_STATIC_LOCAL=harlanji-static
 
-IMAGE_STATIC=docker-registry.local:5000/harlanji.com/harlanji-static:5
+IMAGE_STATIC=docker-registry.local:5000/harlanji.com/harlanji-static:6
 
