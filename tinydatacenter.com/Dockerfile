@@ -1,8 +1,8 @@
-FROM alpine
+FROM cryogen:8-jdk_1.8_2.8.1
 
-RUN apk update && apk upgrade && apk add python
+RUN rm -rf /tmp/app
+ADD app /tmp/app
 
-WORKDIR /tmp/http
-ADD . /tmp/http
+RUN lein uberjar
 
-CMD ["python", "-m", "SimpleHTTPServer", "9090"]
+#CMD ["java", "-jar", "target/app.jar"]

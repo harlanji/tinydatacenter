@@ -43,10 +43,12 @@ this repository as well, so it can be built and used locally.
 
 ### Examples
 
+* tinydatacenter.com - the website for this project, with media served
 * cryogen-example - new Cryogen project with script for new blog
-* tinydatacenter.com-v2 - the website for this project, with media served
-* ispooge.com-v2 - an entertainment/news website, with media and HLS served
-* ispooge.com, tinydatacenter.com - simple websites
+* examples/ispooge.com-v2 - an entertainment/news website, with media and HLS served. now [here](/harlanji/ispooge)
+* examples/ispooge.com, tinydatacenter.com - simple websites
+* examples/tinydatacenter.com-v1 - the original website for this project
+* examples/harlanji.com - the author website. now [here](/harlanji/harlanji-web)
 
 ## State
 
