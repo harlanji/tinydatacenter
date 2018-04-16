@@ -38,4 +38,4 @@ Here are episodes:
 
 ## Contact
 
-* social @t harlanji d0t com or (four one f1ve).93 seven.7four67
+* social at harlanji d0t com or (four one f1ve).93 seven.7four67

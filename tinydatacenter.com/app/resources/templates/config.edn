@@ -23,7 +23,7 @@
  :sass-src             []
  :sass-path            "sass"
  :compass-path         "compass"
- :theme                "blue"
+ :theme                "tinydc"
  :resources            ["img" "assets"]
  :keep-files           [".git"]
  :disqus?              false
